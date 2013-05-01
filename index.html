@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Typing Speed</title>
+    <script src="js/jquery2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="header">
+        <header class="container">
+            <h1 class="row">TypeSpeed</h1>
+        </header>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <div class="well">
+                    <strong>Target Phrase: </strong>
+                    <span id="targetPhrase"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span8">
+                <span class="labelCurrentPhrase">Current Phrase:</span>
+                <textarea id="enteredPhrase" class="enteredPhrase"></textarea>
+
+                <div id="phrases" class="well phrases">
+                    <h4>Phrases</h4>
+                    <ul id="phraseList">
+                        <li class="phrase">hello world</li>
+                        <li class="phrase">goodbye world</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="span4">
+                <div class="well sidebar">
+                    <h4>Results</h4>
+                    <div id="result" class="result">
+                        <ul id="resultList">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/typespeed.js"></script>
+</body>
+</html>

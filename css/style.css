@@ -1,0 +1,69 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    border-bottom: 1px solid #ddd;
+    -webkit-box-shadow: 1px 2px 2px 2px rgba(220, 220, 220, 0.7);
+    box-shadow: 1px 2px 2px 2px rgba(220, 220, 220, 0.7);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.labelCurrentPhrase {
+    font-weight: bold;
+}
+
+.enteredPhrase {
+    display: block;
+    width: 94%;
+    height: 100px;
+}
+
+.phrases {
+    width: 90%;
+    height: 300px;
+}
+
+.result {
+    height: 380px;
+    overflow: scroll;
+}
+
+.sidebar {
+    margin-top: 20px;
+}
+
+#phraseList {
+    margin: 0;
+    overflow: scroll;
+    height: 270px;
+}
+
+.phrase {
+    list-style-type: none;
+    padding: 3px 6px;
+    margin-bottom: 4px;
+    background: #FFF9D1;
+    border: 1px dotted #FFDD00;
+    cursor: pointer;
+}
+
+#resultList {
+    margin: 0;
+}
+
+#resultList li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.result-right {
+    background: #C6FFBA;
+}
+
+.result-wrong {
+    background: #FFD1C7;
+}
